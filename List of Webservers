@@ -1,0 +1,23 @@
+Open-Source Web Servers:
+Apache HTTP Server (Apache) – Most widely used, highly customizable.
+NGINX – Lightweight, high-performance, good for load balancing.
+Caddy – Modern web server with automatic HTTPS.
+LiteSpeed – High-performance alternative to Apache, supports event-driven architecture.
+HAProxy – Primarily a load balancer but can serve static content.
+Tomcat – Java-based, used for running Java Servlets and JSP.
+Jetty – Lightweight Java web server.
+Node.js (Express.js, Fastify, Koa, etc.) – JavaScript runtime that can act as a web server.
+OpenLiteSpeed – Open-source version of LiteSpeed.
+Cherokee – Flexible and user-friendly.
+H2O – Optimized for HTTP/2 performance.
+Zope – Python-based web server and application framework.
+Enterprise and Commercial Web Servers:
+Microsoft IIS (Internet Information Services) – Windows-based web server.
+Oracle WebLogic Server – Java EE server.
+IBM WebSphere – Enterprise Java web server.
+NGINX Plus – Commercial version of NGINX with additional features.
+LiteSpeed Enterprise – Faster than Apache and NGINX, used for high-traffic websites.
+Cloud-Based and Specialized Web Servers:
+AWS Elastic Load Balancer (ALB, NLB, CLB) – Managed load balancing and web serving.
+Google Cloud HTTP(S) Load Balancer – Cloud-native web-serving solution.
+Cloudflare Workers & Pages – Serverless web hosting and edge computing.
