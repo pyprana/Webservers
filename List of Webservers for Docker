@@ -61,3 +61,14 @@ docker run -d --name gcp-loadbalancer -p 8098:80 gcr.io/google_containers/nginx
 
 Cloudflare Workers & Pages – Serverless web hosting and edge computing.
 docker run -d --name cloudflare -p 8099:80 cloudflare/cloudflared
+
+To delete all unused images
+docker rmi $(docker images -q) -f
+
+docker images -q → Lists all image IDs.
+docker rmi → Removes the listed images.
+-f (optional) → Forces deletion (useful if images are in use by containers).
+
+If you want to delete all unused images (dangling and unused ones), use:
+
+docker image prune -a -f
