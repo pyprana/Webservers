@@ -72,3 +72,7 @@ docker rmi → Removes the listed images.
 If you want to delete all unused images (dangling and unused ones), use:
 
 docker image prune -a -f
+
+docker rm -f $(docker ps -aq)
+Before deleting an image, ensure no containers are using it. You can remove all running and stopped containers with:
+docker rm -f $(docker ps -aq)
